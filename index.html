@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta number="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML com JS</title>
     <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
     <div class="container">
-        <h1>Criar uma conta</h1>
+        <h1>Formulário</h1>
         <form id="form-enviar">
-            <input type="text" id="nome-interessado" required placeholder="Nome completo"/>
+            <input type="number" id="campo-A" required placeholder="Campo A"/>
             <p class="error-message">
-                O nome precisa ser completo
+                Campo A não pode ser maior que o campo B<A></A>
             </p>
-            <input type="number" id="numero-senha" required placeholder="Senha"/>
-            <input type="number" id="numero-idade" required placeholder="idade" />
-            <textarea placeholder="Descrição (opcional)" id="descrição" ></textarea>
+            <input type="number" id="campo-B" required placeholder="Campo B"/>
             <button id="btn-enviar" type="submit">Enviar</button>
         </form>
         <p class="success-message"></p>
